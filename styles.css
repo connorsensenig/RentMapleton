@@ -321,11 +321,9 @@ ul {
   position: absolute;
   inset: 0;
   z-index: -2;
-  background-color: #ffffff;
-  background-image: url("RentMapleton.PNG");
-  background-repeat: no-repeat;
-  background-position: center right;
-  background-size: contain;
+  background:
+    radial-gradient(115% 90% at 85% -10%, var(--color-steel-light) 0%, transparent 55%),
+    linear-gradient(135deg, var(--color-charcoal) 0%, var(--color-steel) 100%);
 }
 
 .hero__overlay {
@@ -333,11 +331,9 @@ ul {
   inset: 0;
   z-index: -1;
   background: linear-gradient(
-    105deg,
-    rgba(20, 22, 26, 0.97) 0%,
-    rgba(20, 22, 26, 0.92) 38%,
-    rgba(20, 22, 26, 0.4) 68%,
-    rgba(20, 22, 26, 0) 100%
+    180deg,
+    rgba(20, 22, 26, 0.1) 0%,
+    rgba(20, 22, 26, 0.35) 100%
   );
 }
 
@@ -837,20 +833,6 @@ ul {
 
   .site-footer__grid {
     grid-template-columns: 1fr;
-  }
-
-  .hero__media {
-    background-position: center bottom;
-    background-size: 78%;
-  }
-
-  .hero__overlay {
-    background: linear-gradient(
-      180deg,
-      rgba(20, 22, 26, 0.96) 0%,
-      rgba(20, 22, 26, 0.88) 45%,
-      rgba(20, 22, 26, 0.45) 100%
-    );
   }
 }
 
